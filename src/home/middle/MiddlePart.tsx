@@ -15,7 +15,7 @@ const MiddlePart = (props: Props) => {
           method: "GET",
           headers: {
             accept: "application/json",
-            "X-CSRF-TOKEN": process.env.NEXT_PUBLIC_CSRF_TOKEN,
+            "X-CSRF-TOKEN": process.env.NEXT_PUBLIC_CSRF_TOKEN as string,
           },
         }
       );
