@@ -27,7 +27,7 @@ const MiddlePart = (props: Props) => {
   };
 
   return (
-    <div className="middlePartDiv flex flex-col justify-center items-center">
+    <div className="middlePartDiv flex flex-col justify-center items-center" style={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
       <h3
         style={{
           fontFamily: "Satisfy, cursive",
